@@ -1,3 +1,6 @@
+//ONLY FOR STUDY PURPOSE
+// WARNING: version of AmebaSDK must be 3.1.7 for normal compile
+//made by SoDaVk, please give me a star on github: https://github.com/SODAVK
 #include <Arduino.h>
 #include <wifi_conf.h>
 #include <wifi_util.h>
